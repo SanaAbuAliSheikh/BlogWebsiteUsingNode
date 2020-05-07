@@ -1,0 +1,17 @@
+extends Layout
+
+block content
+    br
+    br
+    ul.list-group
+        
+        h1 #{article.title}
+        p Written By  #{article.author}
+        br 
+        p #{article.body}
+        hr
+        
+        a.btn.btn-primary(href='/article/edit/'+article._id) Edit
+        br
+        a.btn.btn-danger.delete-article(href='#', data-id=article._id) Delete
+        

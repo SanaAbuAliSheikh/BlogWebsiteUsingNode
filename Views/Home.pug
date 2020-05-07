@@ -1,0 +1,10 @@
+extends Layout
+
+block content
+    br
+    h5 #{category}
+    br
+    ul.list-group
+        each article,i in articles_list
+            li.list-group-item 
+                a(href="/article/"+article._id) #{article.title}
