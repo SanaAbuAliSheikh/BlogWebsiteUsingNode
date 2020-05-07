@@ -13,4 +13,4 @@ EDIT BLOG
 <img src="Images/BlogEdit.PNG" width="100%">
 
 DELETE BLOG
-<img src="Images/BlogDelete.PNG" width="100%">
+<img src="Images/BlogDeleted.PNG" width="100%">
